@@ -8,12 +8,23 @@
 #     print(i, type(colors[i]))
 
 
+# b = b'some data'
+# print(b)
+
+# fromByteToString = str(b.decode('utf8'))
+
+# print(type(fromByteToString))
+
+# print(fromByteToString)
+# print(fromByteToString)
+
+
 b = b'some data'
-print(b)
 
-fromByteToString = str(b.decode('utf8'))
+print(b[0])
+# so to bytes ---decode--> str
+# so to   str ---encode--> bytes
 
-print(type(fromByteToString))
+print(str(b's'.decode('utf8')))
 
-print(fromByteToString)
-print(fromByteToString)
+print(b's'[0] == 115)

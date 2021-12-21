@@ -6,3 +6,10 @@ print(type(dict))
 print(dict['Mo'])
 print(dict['Mos'])
 print(dict)
+
+e = {}  # this is dict not map
+
+print(type(e))
+
+e = {}
+print(type(e))

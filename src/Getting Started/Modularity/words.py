@@ -9,4 +9,9 @@ for line in story:
 
 story.close()
 print(str(story_words))
-print(''.join(story_words))
+print(' '.join(story_words))
+
+print(f'2 ** 3 = {2 ** 3} = 8')
+print(f'{64 ** (1 / 4)}')
+# __Feature__ is called dunder Feature
+# so dunder is = double underscore
